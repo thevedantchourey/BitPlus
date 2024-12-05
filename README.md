@@ -22,4 +22,8 @@ Ktor: Lightweight framework for building asynchronous HTTP clients and servers
 Koin: Dependency injection framework for managing dependencies
 
 <br>
-<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133046.png" width=30% height=30%><img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133114.png" width=30% height=30%><img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133125.png" width=30% height=30%>
+<div style="display: flex; justify-content: space-between;">
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133046.png" width=30% height=30%>
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133114.png" width=30% height=30%>
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133125.png" width=30% height=30%>
+<div>
