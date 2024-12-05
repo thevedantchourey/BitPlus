@@ -1,6 +1,5 @@
-<div height= 50px width=50px  style="border-radius: 50%;" >
-  <img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/bitplus_logo_light.png">  
-</div>
+
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/bitplus_logo_light.png"  height=50px width=50px  style="border-radius: 50%">  
 
 
 # BitPlus: 
