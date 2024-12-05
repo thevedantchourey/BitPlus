@@ -19,10 +19,10 @@ MVVM Architecture: Benefit from a clear separation of concerns with the MVVM des
 
 **Technologies Used:**
 
-Kotlin: Modern and concise programming language
-Jetpack Compose: Declarative UI framework for building native Android apps
-Material Design: Design language for consistent and beautiful UIs
-Ktor: Lightweight framework for building asynchronous HTTP clients and servers
+Kotlin: Modern and concise programming language <br>
+Jetpack Compose: Declarative UI framework for building native Android apps<br>
+Material Design: Design language for consistent and beautiful UIs<br>
+Ktor: Lightweight framework for building asynchronous HTTP clients and servers<br>
 Koin: Dependency injection framework for managing dependencies
 
 <br>
