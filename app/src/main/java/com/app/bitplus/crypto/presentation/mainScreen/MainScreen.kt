@@ -18,6 +18,9 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -47,6 +50,8 @@ import com.app.bitplus.ui.theme.onTertiaryLight
 import com.app.bitplus.ui.theme.tertiaryDark
 import com.app.bitplus.ui.theme.tertiaryLight
 import org.koin.androidx.compose.koinViewModel
+
+
 
 
 @Composable
@@ -81,6 +86,15 @@ fun MainScreen(
         backgroundLightHighContrast
     }
 
+    var textPadding by remember {
+        mutableStateOf(0.dp)
+    }
+
+    textPadding = if(CoinSharedPreference.getCoinName(LocalContext.current) != null){
+        120.dp
+    }else{
+        0.dp
+    }
 
     Column(
         modifier = modifier
@@ -112,7 +126,8 @@ fun MainScreen(
             }
             Spacer(modifier = Modifier.weight(1f))
             Box(
-                modifier = Modifier.padding(top = 120.dp)
+                modifier = Modifier
+                    .padding(top = textPadding)
                     .align(Alignment.CenterHorizontally)
                     .fillMaxWidth()
             ){
@@ -149,7 +164,7 @@ fun MainScreen(
         }else{
             Row(
                 modifier = Modifier
-                    .padding(top = 20.dp, start = 40.dp, end = 20.dp,bottom = 20.dp)
+                    .padding(top = 20.dp, start = 40.dp, end = 20.dp, bottom = 20.dp)
                     .fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically
             ) {
@@ -174,7 +189,8 @@ fun MainScreen(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Box(
-                    modifier = Modifier.padding(start = 20.dp)
+                    modifier = Modifier
+                        .padding(start = 20.dp)
                         .align(Alignment.CenterVertically)
                         .width(400.dp)
                         .fillMaxHeight()
