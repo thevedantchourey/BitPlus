@@ -11,10 +11,10 @@ It leverages the MVVM architectural pattern and Koin for dependency injection to
 
 **Key Features:**
 
-Real-time Updates: Get instant price updates for your favorite cryptocurrencies.
-Intuitive Interface: Enjoy a user-friendly interface built with Jetpack Compose and Material Design principles.
-Reliable Data: Access accurate and up-to-date data directly from the Coincap API using Ktor.
-Dependency Injection: Maintain a clean and organized codebase with Koin.
+Real-time Updates: Get instant price updates for your favorite cryptocurrencies.<br>
+Intuitive Interface: Enjoy a user-friendly interface built with Jetpack Compose and Material Design principles.<br>
+Reliable Data: Access accurate and up-to-date data directly from the Coincap API using Ktor.<br>
+Dependency Injection: Maintain a clean and organized codebase with Koin.<br>
 MVVM Architecture: Benefit from a clear separation of concerns with the MVVM design pattern.
 
 **Technologies Used:**
