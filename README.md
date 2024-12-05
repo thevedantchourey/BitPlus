@@ -1,5 +1,5 @@
 
-<img style="border-radius: 20%;" src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/bitplus_logo_light.png" width=30px height=30px>  
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/bitplus_logo_light.png"  style="border-radius: 50%;" width=50px height=50px>  
 
 # BitPlus: 
 Your Real-Time Crypto Tracker
