@@ -1,5 +1,5 @@
 
-<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/bitplus_logo_light.png"  height=50px width=50px  style="border-radius: 50%">  
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assets/bitplus_logo_light.png"  height=50px width=50px  style="border-radius: 50%">  
 
 
 # BitPlus: 
@@ -27,7 +27,7 @@ It leverages the MVVM architectural pattern and Koin for dependency injection to
 
 <br>
 <div style="display: flex; justify-content: space-between;">
-<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133046.png" width=30% height=30%>
-<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133114.png" width=30% height=30%>
-<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assests/Screenshot_20241205_133125.png" width=30% height=30%>
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assets/Screenshot_20241205_133046.png" width=30% height=30%>
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assets/Screenshot_20241205_133114.png" width=30% height=30%>
+<img src="https://github.com/thevedantchourey/BitPlus/blob/master/assets/Screenshot_20241205_133125.png" width=30% height=30%>
 <div>
